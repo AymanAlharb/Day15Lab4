@@ -1,5 +1,4 @@
-public interface Shape {
-    double calculateArea();
-    double calculateCircumference();
-
+public abstract class Shape {
+    public abstract double calculateArea();
+    public abstract double calculateCircumference();
 }

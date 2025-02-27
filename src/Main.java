@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //Testing the Rectangle class
+        //Testing the Circle class
         System.out.println("Circle class: ");
         Circle circle = new Circle(5);
         System.out.println("\tA circle with a radius of: " + circle.getRadius() + "\n\tHas an area of: " + String.format("%.2f", circle.calculateArea()) +
@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println("----------------------------------------------------------------------------");
 
-        //Testing the Rectangle class
+        //Testing the Triangle class
         System.out.println("Triangle class: ");
         Triangle triangle = new Triangle(5, 4);
         System.out.println("\tA triangle with a height of: " + triangle.getHeight() + " And a base of: " + triangle.getBase() +

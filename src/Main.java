@@ -13,7 +13,7 @@ public class Main {
 
 
         System.out.println("----------------------------------------------------------------------------");
-        
+
         //Testing the Rectangle class
         System.out.println("Rectangle class: ");
         Rectangle rectangle = new Rectangle(4, 3);
